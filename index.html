@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ข้อสอบจับคู่เม็ดยา</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  font-family:'Segoe UI','Noto Sans Thai',system-ui,sans-serif;
+  background:radial-gradient(circle at 20% -10%,#eef0ff 0%,#f6f7fc 45%,#fbfbfd 100%);
+  min-height:100vh; display:flex; flex-direction:column;
+  align-items:center; justify-content:center; padding:28px 14px;
+  color:#202336;
+}
+.card{
+  background:#fff; border-radius:24px; padding:36px 28px;
+  box-shadow:0 10px 40px rgba(40,40,90,.1); border:1px solid #e7e8f2;
+  max-width:480px; width:100%; text-align:center;
+}
+.icon{font-size:48px; margin-bottom:12px;}
+h1{font-size:1.5rem; margin-bottom:6px;}
+.subtitle{color:#6b7080; font-size:.9rem; margin-bottom:32px; line-height:1.6;}
+.quiz-list{display:flex; flex-direction:column; gap:14px; margin-bottom:28px;}
+.quiz-btn{
+  display:flex; align-items:center; gap:16px;
+  padding:18px 22px; border-radius:16px; text-decoration:none;
+  border:2px solid #e7e8f2; background:#fafafa;
+  transition:.15s; color:#202336;
+}
+.quiz-btn:hover{border-color:#5046e5; background:#f5f5ff; transform:translateY(-1px);
+  box-shadow:0 4px 16px rgba(80,70,229,.12);}
+.quiz-num{
+  width:44px; height:44px; border-radius:12px; background:#5046e5;
+  color:#fff; font-size:1.2rem; font-weight:800;
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+}
+.quiz-info{text-align:left;}
+.quiz-title{font-weight:700; font-size:1rem;}
+.quiz-desc{font-size:.8rem; color:#6b7080; margin-top:2px;}
+.quiz-arrow{margin-left:auto; color:#5046e5; font-size:1.2rem;}
+.divider{height:1px; background:#e7e8f2; margin-bottom:20px;}
+.note{font-size:.75rem; color:#9ca3af; line-height:1.6;}
+footer{margin-top:20px; font-size:.75rem; color:#9ca3af;}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="icon">💊</div>
+  <h1>ข้อสอบจับคู่เม็ดยา</h1>
+  <p class="subtitle">เลือกชุดข้อสอบที่ต้องการทำ<br>ผลคะแนนจะถูกบันทึกลงคลาวด์อัตโนมัติ</p>
+
+  <div class="quiz-list">
+    <a class="quiz-btn" href="PillQuiz_ชุด1.html">
+      <div class="quiz-num">1</div>
+      <div class="quiz-info">
+        <div class="quiz-title">ชุดที่ 1</div>
+        <div class="quiz-desc">45 ข้อ · จับคู่รูปเม็ดยา</div>
+      </div>
+      <div class="quiz-arrow">→</div>
+    </a>
+    <a class="quiz-btn" href="PillQuiz_ชุด2.html">
+      <div class="quiz-num" style="background:#7c3aed;">2</div>
+      <div class="quiz-info">
+        <div class="quiz-title">ชุดที่ 2</div>
+        <div class="quiz-desc">45 ข้อ · จับคู่รูปเม็ดยา</div>
+      </div>
+      <div class="quiz-arrow" style="color:#7c3aed;">→</div>
+    </a>
+    <a class="quiz-btn" href="PillQuiz_ชุด3.html">
+      <div class="quiz-num" style="background:#0891b2;">3</div>
+      <div class="quiz-info">
+        <div class="quiz-title">ชุดที่ 3</div>
+        <div class="quiz-desc">44 ข้อ · จับคู่รูปเม็ดยา</div>
+      </div>
+      <div class="quiz-arrow" style="color:#0891b2;">→</div>
+    </a>
+  </div>
+
+  <div class="divider"></div>
+  <p class="note">
+    💡 กรอกชื่อ-นามสกุลและตำแหน่งก่อนเริ่มทำข้อสอบ<br>
+    ผลคะแนนจะถูกบันทึกเข้าระบบโดยอัตโนมัติ
+  </p>
+</div>
+<footer>ข้อสอบจับคู่เม็ดยา · โรงพยาบาล</footer>
+</body>
+</html>
